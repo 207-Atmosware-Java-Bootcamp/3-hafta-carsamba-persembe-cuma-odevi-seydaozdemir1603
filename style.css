@@ -1,0 +1,163 @@
+/*
+project name: My project one pages
+project author:Hamit Mızrak
+project year: 2022
+project version: v.1
+*/
+
+/* ################################################### */
+/* config file */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Crimson Text', serif;
+    position: relative;
+}
+
+html{
+    font-size:20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+   margin-left:.5rem;
+   margin-right:.5rem;
+}
+
+/* ################################################### */
+.line_clamp4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line_clamp8 {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line_clamp16 {
+    display: -webkit-box;
+    -webkit-line-clamp: 16;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ################################################### */
+
+/* nav */
+#logo_id{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#logo_id:hover{
+    box-shadow:1px 1px 1px 4px rgba(255,255,255,.8);
+}
+
+
+/* ############################################################################################## */
+/* header */
+header{
+    background-image: url('picture/header.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top:12rem;
+    height:40rem;
+    z-index: -1;
+
+}
+
+
+/* ############################################################################################## */
+#back_top{
+    position:fixed;
+    right:0;
+    bottom:0;
+    color:#fff;
+    background-color:#0d6efd ;
+    border-color: #0d6efd;
+    margin-right: .8%;
+    padding: .3rem 1.5rem;
+    border-radius: .6rem;
+}
+
+#back_top:hover{
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.6);
+    transition: 2s all;
+    border-radius: .8rem;
+}
+
+/* ############################################################################################## */
+
+/* main */
+#main_card_header_bottom>img {
+    max-height: 30rem !important;
+}
+
+#main_card_header_bottom h5,
+p {
+    color: black;
+}
+
+#about-2{
+   margin-top:10%;
+   background-color: #eaf0fc;
+   height: 32rem;
+   padding-top:5rem;
+}
+
+
+/* ############################################################################################## */
+
+/* footer */
+footer{
+    min-height: 20rem;
+    width:auto;
+    background-color:#242524;
+
+}
+
+footer > h6,p{
+    color:#f2f1ea;
+}
+
+.card-img-top1 {
+    height: 2rem;
+    object-fit:cover;
+}
+
+.card-text1{
+    font-size: 14px;
+    color: #242524;
+    text-align: left;
+    
+}    
+
+.card1{
+    border: 2px;
+    border-style:groove;
+    border-radius: 30px;
+    width: 6rem;
+    height: 22rem;
+    background-color: beige;
+}
+    
+
+
