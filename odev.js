@@ -1,4 +1,4 @@
-/*       
+   
 ---> ÖDEV-1
 y=3x+4k ==> 1.dereceden 2 bilinmyenli denklem
 Kullanıcı tarafından alınan x ve k değerlerini hesaplayan algoritma yazınız ?
@@ -257,4 +257,4 @@ küçükse küçük tahmin. ve sonunda eğer bulursak kaçıncı tahminde buldu�
            document.writeln("sayıyı buldunuz.")
        }
     
-     */               
+   
